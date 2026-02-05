@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.weather-container {
+  height: 100vh;
+  /* background: linear-gradient(160deg, #3fa6f0, #f1c54abd); */
+  /* background: linear-gradient(135deg, #d7d2cc, #304352); 🌤️ Cloudy / Normal Day */
+   /*background: linear-gradient(135deg, #b4b7fc, #131ef4); 🌧️ Rainy Weather */
+   /*background: linear-gradient(135deg, #5495f5, #41f4fd); ❄️ Winter / Cold Weather */
+   /*background: linear-gradient(135deg, #0e1523, #1e3754); 🌙 Night Mode */
+  /* background: linear-gradient(to right, #2193b0, #6dd5ed); /* 🔥 Default (All-Weather Safe Choice) */
+
+}
+

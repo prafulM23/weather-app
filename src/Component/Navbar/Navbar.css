@@ -1,0 +1,133 @@
+.navbar-main-box {
+    background-color: rgba(212, 210, 210, 0.986);
+    padding: 5px;
+}
+
+.navbar-field-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* ******************************************{heading section}******************************************************* */
+.navbar-heading-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-heading-section h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    cursor: context-menu;
+}
+
+
+/* ******************************************{Input section}******************************************************* */
+
+.navbar-input-section {
+    display: flex;
+    width: 500px;
+    background-color: white;
+    position: relative;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-input-section input {
+    margin-left: 10px;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.navbar-search-bg {
+    position: absolute;
+    right: 10px;
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    background-color: rgb(254, 181, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-search-bg:hover {
+    background-color: rgba(246, 162, 7, 0.604);
+
+}
+
+/* ******************************************{Moon section}******************************************************* */
+.navbar-moon-bg {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(254, 181, 45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar-moon-bg:hover {
+    background-color: rgba(246, 162, 7, 0.604);
+
+}
+
+/* ================= TABLET VIEW ================= */
+@media (max-width: 768px) {
+
+    .navbar-input-section {
+        width: 350px;
+        height: 38px;
+    }
+
+    .navbar-heading-section h1 {
+        font-size: 20px;
+    }
+}
+
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 480px) {
+    .navbar-field-box {
+        gap: 8px;
+    }
+
+    .navbar-field-box {
+        flex-direction: column;
+    }
+
+    .navbar-heading-section {
+        justify-content: center;
+    }
+
+    .navbar-input-section {
+        width: 80%;
+        height: 36px;
+    }
+
+    .navbar-input-section input {
+        font-size: 14px;
+    }
+
+    .navbar-moon-bg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .navbar-search-bg {
+        width: 30px;
+        height: 30px;
+    }
+}
