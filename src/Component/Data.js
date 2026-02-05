@@ -20,7 +20,7 @@ export const getWeather = async (city) => {
     try {
         const API_Key = "ae5e56ce6cf8430889782504262801";
         const res = await axios.get(
-            `http://api.weatherapi.com/v1/current.json?key=${API_Key}&q=${city}`
+            `https://api.weatherapi.com/v1/current.json?key=${API_Key}&q=${city}`
         );
         return res.data
     } catch (error) {
